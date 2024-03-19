@@ -1,0 +1,58 @@
+require:
+  - rubocop-rails
+  - rubocop-slim
+  - rubocop-minitest
+
+AllCops:
+  NewCops: enable
+  TargetRubyVersion: 3.2
+  Include:
+    - '**/*.rb'
+    - '**/*.slim'
+  Exclude:
+    - 'db/schema.rb'
+    - 'bin/**/*'
+    - 'script/**/*'
+
+Style/StringLiterals:
+  EnforcedStyle: single_quotes
+
+Style/StringLiteralsInInterpolation:
+  EnforcedStyle: double_quotes
+
+Style/Documentation:
+  Enabled: false
+
+Metrics/MethodLength:
+  Enabled: false
+
+Metrics/BlockLength:
+  Enabled: false
+
+Minitest/MultipleAssertions:
+  Enabled: false
+
+Metrics/CyclomaticComplexity:
+  Max: 9
+
+Metrics/PerceivedComplexity:
+  Max: 9
+
+Rails/ReversibleMigration:
+  Enabled: false
+
+Layout/LineLength:
+  Max: 120
+  Exclude:
+    - 'config/initializers/devise.rb'
+    - 'config/initializers/simple_form.rb'
+
+Metrics/AbcSize:
+  Enabled: false
+
+Rails/UniqueValidationWithoutIndex:
+  Enabled: false
+
+Rails/CreateTableWithTimestamps:
+  Enabled: false
+
