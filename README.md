@@ -1,7 +1,7 @@
 # Hexlet Photo blog project
 [![Ruby](https://github.com/EskovDMTA/rails-project-64/actions/workflows/custom-build.yml/badge.svg)](https://github.com/EskovDMTA/rails-project-64/actions/workflows/custom-build.yml)
 
-Deploy: https://rails-project-64-production-2cc0.up.railway.app/about
+Deploy: https://collectiveblog-deploy-production.up.railway.app/
 
 ## Photo Blog
 
